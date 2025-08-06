@@ -1,0 +1,5 @@
+Consideraciones:
+- Para simplificar y optimizar la búsqueda de palabras en columnas (y considerando tamaño maximo de 64 x 64, además de almacenar la matriz en filas, también almacene las columnas como array de strings.
+- Si la cantidad de palabras encontradas pudiera ser muy grande, para obtener las 10 mas repetidos, tal vez usaria algun tipo de cola o cache, pero dado el limite de la matriz a 64x64, creo que no es necesario
+- Ante palabras con igual cantidad de repeticiones en el top 10, informo las que primero encuentro en el Word Stream.
+
