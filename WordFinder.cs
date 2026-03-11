@@ -13,7 +13,7 @@ namespace CelaraChallenge
             columns = new string[size];
             rows = matrix.ToArray();
 
-            // To optimize words search, I duplicate information by saving the columns as an array of Strings
+            // To optimize words search, I duplicate information by saving the columns as an array of Strings.
             for (int c = 0; c < size; c++)
             {
                 string element = "";
@@ -57,7 +57,7 @@ namespace CelaraChallenge
 
             // If the number of words found could be very large,
             // to get the 10 most repeated ones, I would use some kind of queue or cache,
-            // but given the 64x64 matrix limit, I think that's not necessary.
+            // but given the 64x64 matrix limit, I think that's not necessary....
             var topTenMostRepeated = foundSummary
                 .OrderByDescending(kv => kv.Value)
                 .Take(10)
